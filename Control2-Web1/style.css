@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f5f5f5;
+    color: #222;
+}
+
+header{
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.logo img{
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    align-items: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: #222;
+    font-size: 14px;
+}
+
+.btn-order{
+    background: #f2f2f2;
+    padding: 10px 15px;
+    border-radius: 4px;
+}
+
+main{
+    max-width: 1050px;
+    margin: 30px auto;
+}
+
+.hero{
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.hero img{
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.hero-text{
+    position: absolute;
+    bottom: 40px;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.hero-text h1{
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+.hero-text p{
+    font-size: 16px;
+}
+
+.featured{
+    margin-bottom: 50px;
+}
+
+.featured h2{
+    margin-bottom: 20px;
+}
+
+.tarjetas{
+    display: flex;
+    gap: 20px;
+}
+
+.tarjeta{
+    width: 230px;
+}
+
+.tarjeta img{
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.tarjeta h3{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.tarjeta p{
+    color: #666;
+    font-size: 13px;
+}
+
+.story{
+    margin-bottom: 40px;
+}
+
+.story h2{
+    margin-bottom: 15px;
+}
+
+.story p{
+    line-height: 1.6;
+    color: #444;
+}
+
+.contact{
+    margin-bottom: 60px;
+}
+
+.contact h2{
+    margin-bottom: 15px;
+}
+
+.contact p{
+    line-height: 1.6;
+    color: #444;
+}
+
+footer{
+    text-align: center;
+    padding: 40px 30px;
+    background: white;
+    border-top: 1px solid #ddd;
+}
+
+.footer-links{
+    display: flex;
+    justify-content: space-between;
+    max-width: 500px;
+    margin: 0 auto 35px;
+}
+
+.footer-links a{
+    text-decoration: none;
+    color: #777;
+    font-size: 14px;
+}
+
+.redes-sociales{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    margin-bottom: 20px;
+}
+
+.redes-sociales a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.redes-sociales img{
+    width: 22px;
+    height: 22px;
+    object-fit: contain;
+}
+
+footer p{
+    color: #888;
+    font-size: 13px;
+}
